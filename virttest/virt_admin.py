@@ -117,7 +117,7 @@ class VirtadminSession(aexpect.ShellSession):
     def __init__(
         self,
         virtadmin_exec=None,
-        uri=None,
+        uri="qemu:///system",
         a_id=None,
         prompt=r"virt-admin\s*[\#\>]\s*",
         remote_ip=None,
